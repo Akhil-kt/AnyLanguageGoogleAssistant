@@ -1,0 +1,10 @@
+#!/bin/sh
+pip3 install --upgrade google-cloud-speech
+pip3 install pyaudio
+pip3 install --upgrade google-assistant-sdk[samples]
+pip3 install --upgrade google-assistant-sdk
+pip3 install google-cloud-translate==2.0.0
+pip3 install selenium
+export GOOGLE_APPLICATION_CREDENTIALS='Users/AKHIL/Development/telugu_google_assistant/TeluguAssistant-08f29b5f5e2f.json'
+pip3 install inflect
+source env/bin/activate
